@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Film Folio</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Film Folio</h1>
+        </header>
+
+        <div id="main-container">
+            <div id="search-box">
+                <label for="search">Suche nach Filmen:</label>
+                <input type="text" id="search" oninput="searchMovies()" placeholder="Filmtitel eingeben...">
+            </div>
+
+            <div id="movie-list"></div>
+        </div>
+    </body>
+
+    <script src="index.js"></script>
+</html>

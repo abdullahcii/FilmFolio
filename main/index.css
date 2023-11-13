@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #131720;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#main-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#search-box {
+    color: white;
+}
+
+#movie-list {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie-card {
+    flex: 0 1 calc(20% - 20px);
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
